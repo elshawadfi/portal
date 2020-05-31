@@ -1,0 +1,26 @@
+[24-Mar-2020 00:33:40 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65536 bytes) in /home/datac/public_html/portal/application/vendor/studio-42/elfinder/php/elFinderVolumeDriver.class.php on line 6275
+[24-Mar-2020 00:33:40 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 147456 bytes) in /home/datac/public_html/portal/system/core/Common.php on line 163
+[24-Mar-2020 02:09:46 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65536 bytes) in /home/datac/public_html/portal/system/libraries/Image_lib.php on line 1474
+[24-Mar-2020 02:09:46 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 147456 bytes) in /home/datac/public_html/portal/system/core/Common.php on line 163
+[24-Mar-2020 02:09:59 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65536 bytes) in /home/datac/public_html/portal/system/libraries/Image_lib.php on line 1474
+[24-Mar-2020 02:09:59 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 147456 bytes) in /home/datac/public_html/portal/system/core/Common.php on line 163
+[04-Apr-2020 20:59:54 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[04-Apr-2020 21:00:13 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[04-Apr-2020 21:00:23 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[16-Apr-2020 00:16:17 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[16-Apr-2020 00:17:07 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[16-Apr-2020 00:17:25 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[16-Apr-2020 00:32:30 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[16-Apr-2020 11:09:56 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[16-Apr-2020 11:14:30 Africa/Cairo] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 69632 bytes) in /home/datac/public_html/portal/application/vendor/tecnickcom/tcpdf/tcpdf.php on line 7317
+[21-May-2020 00:40:02 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on boolean in /home/datac/public_html/portal/system/database/drivers/mysqli/mysqli_driver.php:393
+Stack trace:
+#0 /home/datac/public_html/portal/system/database/DB_driver.php(1143): CI_DB_mysqli_driver->_escape_str('5e3e4a467c0d028...')
+#1 /home/datac/public_html/portal/system/database/DB_driver.php(1108): CI_DB_driver->escape_str('5e3e4a467c0d028...')
+#2 /home/datac/public_html/portal/system/database/DB_query_builder.php(1323): CI_DB_driver->escape('5e3e4a467c0d028...')
+#3 /home/datac/public_html/portal/system/database/DB_query_builder.php(1654): CI_DB_query_builder->set(Array, '', true)
+#4 /home/datac/public_html/portal/system/libraries/Session/drivers/Session_database_driver.php(237): CI_DB_query_builder->insert('sessions', Array)
+#5 [internal function]: CI_Session_database_driver->write('5e3e4a467c0d028...', '__ci_last_regen...')
+#6 [internal function]: session_write_close()
+#7 {main}
+  thrown in /home/datac/public_html/portal/system/database/drivers/mysqli/mysqli_driver.php on line 393
