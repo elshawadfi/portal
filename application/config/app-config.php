@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://localhost/portal/');
+define('APP_BASE_URL', 'https://portal.datac.com/');
 
 /*
 * --------------------------------------------------------------------------
